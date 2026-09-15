@@ -1,0 +1,51 @@
+body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #222831;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 10px 10px 0;
+            border-style: solid;
+            border-color: #b83b3b transparent transparent transparent;
+            display: block;
+            width: 0;
+        }
+
+
+        .box {
+            width: 1000px;
+            height: 100px;
+            background-color: #942f2f;
+            z-index: 1000;
+            top: 0;
+        }
+
+
+        /* Custom Scrollbar for Textarea */
+        textarea::-webkit-scrollbar {
+            width: 8px;
+        }
+
+
+        textarea::-webkit-scrollbar-track {
+            background: #1a1f26;
+        }
+
+
+        textarea::-webkit-scrollbar-thumb {
+            background: #b83b3b;
+            border-radius: 4px;
+        }
+
+
+        textarea::-webkit-scrollbar-thumb:hover {
+            background: #942f2f;
+        }

@@ -1,0 +1,374 @@
+.brand-title2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 52px;
+    line-height: 1;
+    margin: 0;
+    color: #9aa0a6;
+    letter-spacing: 4px;
+}
+
+.brand-tech2 {
+    color: #b23b3b;
+    margin-bottom: 8px;
+}
+
+.servicestitle {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 1;
+    margin: 0;
+    color: #d4d4d4;
+    letter-spacing: 4px;
+    border-left: #b23b3b 3px solid;
+    border-right: #b23b3b 3px solid;
+    width: 80%;
+}
+.servicesh5 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.1;
+    margin: 0;
+    color: #a1a3a5;
+    letter-spacing: 2px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+.card {
+    width: 460px;
+    border: 1px solid #701e1d;
+    border-radius: 20px;
+    background-color: #9c3d3d;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-out;
+    border: 1px solid #381111;
+    box-shadow: 0 0 10px rgb(39, 39, 39),
+                0 0 10px rgb(139, 36, 36);
+}
+.cardcontent {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    color: #d4d4d4;
+    width: 90%;
+    transition: 0.5s;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cardcontent h3 {
+    margin-top: 0;
+    color: #d4d4d4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardcontent h6 {
+  margin-left: -80px;
+  margin-top: -15px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cardcontent ul {
+    margin-top: -30px;
+    margin-left: -20px;
+}
+.cardcontent li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.btn-saiba-mais {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -100;
+    color:#ffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+.btn-saiba-mais:hover {
+    color:#c1c4c7;
+}
+
+
+.trust-badges-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #ffffff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.badge-icon {
+  background: #ffffff;
+  color: #000000;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px auto;
+}
+
+.badge-icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+.trust-badge-item h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.trust-badge-item p {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  line-height: 1.4;
+  margin: 0;
+}
+
+
+.divider {
+  width: 1px;
+  height: 60px;
+  background-color: #374151; 
+}
+
+.laurel-branch {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.6));
+}
+
+.laurel-branch.right {
+  transform: scaleX(-1);
+}
+
+.videoplanos {
+    max-width: 1100px;
+    margin: 0 auto;
+    border-radius: 1px;
+    align-items: center;
+    display: flex;
+}
+
+.lojavirtual {
+    display: flex;
+    align-items: center;      
+    justify-content: space-between; 
+    gap: 40px;               
+    width: 100%;
+    max-width: 1100px;     
+    margin: 0 auto;    
+    text-align: left;
+}
+
+.siteinstitucional {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.sobmedida {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.loja-conteudo {
+    flex: 1;                
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.loja-conteudo h5 {
+    color: #9c3d3d;
+    margin-bottom: 10px;
+}
+
+.loja-conteudo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.loja-conteudo p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #d4d4d4;
+    margin-bottom: 20px;
+}
+
+.loja-conteudo button {
+    background-color: #b23b3b;
+    border-radius: 5px;
+    border: #701e1d solid 1px;
+    color: antiquewhite;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.loja-conteudo button:hover {
+    transform: translateY(-2px);
+    background-color: #c13431;
+}
+
+
+.loja-imagem {
+    flex: 1;                
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imgloja {
+    width: 100%;
+    max-width: 450px;       
+    height: auto;              
+    border-radius: 8px;       
+    object-fit: cover;
+}
+
+.linhagrossa {
+  width: 1100px;
+  height: 300px;
+  margin-left: -60px;
+  background-color: #1b2227;;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.faq-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background-color: #303030;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+  list-style: none; 
+}
+
+.faq-question:hover {
+  background-color: #3a3a3a;
+}
+
+.faq-question .icon {
+  font-size: 1.8rem;
+  transition: transform 0.2s ease;
+}
+
+.faq-item[open] .icon {
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.faq-answer {
+  padding: 0 24px 20px 24px;
+  background-color: #303030;
+  border-top: 1px solid #111;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+html {
+            scroll-behavior: smooth;
+        }
+
+        .btn-top {
+            position: fixed !important;
+            bottom: 30px !important;
+            right: 30px !important;
+            z-index: 99999 !important;
+            width: 50px !important;
+            height: 50px !important;
+            background-color: #c13431 !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+            transition: transform 0.2s ease, background-color 0.2s ease !important;
+            text-decoration: none !important;
+        }
+
+        .btn-top:hover {
+            transform: scale(1.1) !important;
+            background-color: #a02826 !important;
+        }
+
+
+        .btn-top img {
+            width: 20px !important;
+            height: 20px !important;
+            object-fit: contain !important;
+
+            filter: brightness(0) invert(1) !important;
+        }

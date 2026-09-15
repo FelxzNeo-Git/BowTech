@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+body {
+    background-color: #252e36;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+.top-bar {
+    width: 100%;
+    background-color: #9c3d3d;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+.header-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    gap: 12px;
+}
+
+
+
+
+.title-badge {
+    background-color: #9c3d3d;
+    color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 12px;
+    font-size: 32px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+
+
+
+.subtitle-badge {
+    background-color: #9c3d3d;
+    color: #ffffff;
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+
+
+
+.form-container {
+    width: 100%;
+    max-width: 550px;
+    border: 2px solid  #222831;
+    background-color:  #222831;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+.form-group label {
+    width: 130px;
+    font-size: 22px;
+    color: #a1a3a5;
+   
+}
+
+
+
+
+.form-group input {
+    flex: 1;
+    height: 38px;
+    background-color: #9c3d3d;
+ 
+    border: none;
+    border-radius: 20px;
+    padding: 0 15px;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+.form-actions {
+    margin-top: 30px;
+    border-top: 2px solid #9c3d3d;
+   
+    padding-top: 15px;
+}
+
+
+
+
+.form-actions button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.form-actions button:hover {
+    color: #a1a3a5;
+ 
+}
+
+
+	
+
+
+
+
+.form-actions {
+    margin-top: 30px;
+    border-top: 2px solid #9c3d3d;
+   
+    padding-top: 15px;
+}
+
+
+.form-actions button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.form-actions button:hover {
+    color: #a1a3a5;
+ 
+}

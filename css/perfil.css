@@ -1,0 +1,109 @@
+body{
+     background-color: #252e36;
+}
+.top-bar{
+    width: 100%;
+    background-color: #9c3d3d;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius:  10px;
+}
+.title-badge{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subtitle{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    align-items: center;
+}
+
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;  
+}
+.dado-linha {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+
+
+}
+
+
+
+
+.dado-rotulo {
+    width: 130px;
+    font-size: 22px;
+    color: #a1a3a5;
+    font-weight: normal;
+    background-color: #252e36;
+}
+.dado-rotulo:hover{
+     background-color: #9c3d3d;
+
+
+
+
+}
+
+
+
+
+.dado-valor {  
+    flex: 1;
+    height: 38px;
+    background-color: #9c3d3d;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.form-actions {
+    margin-top: 30px;
+    border-top: 2px solid #9c3d3d;
+    padding-top: 15px;
+}
+
+
+.card {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+
+
+.header-titles {
+    text-align: center;
+}
+
+
+
+
+
+
